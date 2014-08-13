@@ -1,7 +1,7 @@
 
 CC = g++
-FILES = CurlCore.cpp \
-		eAskGit.cpp
+FILES = src/CurlCore.cpp \
+		src/eAskGit.cpp
 
 OUT_EXE = eAskGit
 LIB = -lcurl -lpthread
